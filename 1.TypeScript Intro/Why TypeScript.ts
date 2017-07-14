@@ -6,7 +6,7 @@ Why use TypeScript over Javascript ?
       prototype patterns. It results in lack of maintainability, lack of reuse of code.
      
       We want maintainable code, this is something TypeScript can do it.
-    
+      All Javascript is valid TypeScript.
     * Javascript provides dynamic Type System.
         The Good Things:
             1. Variable can hold any object.

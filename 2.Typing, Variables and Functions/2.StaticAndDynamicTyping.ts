@@ -1,7 +1,8 @@
 // ambient declarations and Type Definition Files
 // (typescriptlang.codeplex.com for type definition files)
 
-/// <reference path="C:/Users/kolhe_p/Desktop/TypeScript Training/TypeScript-Fundamentals/Typings/lib.d.ts"/>
+/// <reference path="Typings/lib.d.ts"/>
+
 declare var document:Document;
 
 module typesDemo {

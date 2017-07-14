@@ -1,14 +1,20 @@
+// ambient declarations and Type Definition Files
+// (typescriptlang.codeplex.com for type definition files)
+/// <reference path="Typings/lib.d.ts"/>
 var typesDemo;
 (function (typesDemo) {
-    var person;
+    //var person; // Javascript dynamic typing
+    var person; // typescript static typing
     person = "Pankaj K";
     console.log(person.substring(1, 3));
-    person = {
-        firstName: "Pankaj",
+    /*person2 = {
+        firstName:"Pankaj",
         lastName: "Kolhe",
         age: 31
-    };
-    console.log(person.substring(1, 3));
+    }
+    console.log(person.substring(1,3));*/ // person.substring is not a function, Javascript Problem of dynamic typing
+    document.title = "Pankaj Kolhe";
+    //document.title = 20;  throws compile time error that we can not assign integer to value which is string
 })(typesDemo || (typesDemo = {}));
 /*
 
