@@ -140,16 +140,6 @@ var greet = p.greet('Pankaj');
 console.log(greet);
 
 
-
-
-
-
-
-
-
-
-
-
 /* Primitive Data Types
 
     * any
