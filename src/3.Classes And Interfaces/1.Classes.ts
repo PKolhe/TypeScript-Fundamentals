@@ -24,11 +24,22 @@ class Car {
         this._engine = engine;
     }
 
-    get engine(): Engine {
+    //getEngine(): Engine {
+    //    return this._engine;
+    //}
+
+    //setEngine(value:Engine) {
+    //    if(value == undefined) {
+    //        throw "Please provide Engine";
+    //    }
+    //    this._engine = value;
+    //}
+    
+    getEngine(): Engine {
         return this._engine;
     }
 
-    set engine(value:Engine) {
+    setEngine(value:Engine) {
         if(value == undefined) {
             throw "Please provide Engine";
         }
@@ -43,7 +54,7 @@ class Car {
 window.onload = function() {
     var car = new Car(new Engine(1200, 'V8') );
     car.start();
-    car.engine = new Engine(1500, 'M5');
+    car.setEngine(new Engine(1500, 'M5'));
     car.start();
 }
 
