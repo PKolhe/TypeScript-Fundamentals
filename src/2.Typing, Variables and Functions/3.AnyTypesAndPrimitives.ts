@@ -156,7 +156,9 @@ console.log(greet);
     * When there is no Type Annotations. Type will be inferend as any.
     * ? is used to declare optional parameter.
     * applying !! to a value will return boolean true or false in javascript.
-
+    * Array
+    * Enums 
+    
     Functions :
 
         * Parameter Types : 
