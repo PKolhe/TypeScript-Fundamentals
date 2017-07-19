@@ -1,4 +1,4 @@
-/// <reference path="../typings/toastr.d.ts" />
+/// <reference path="typings/toastr.d.ts" />
 var Point = (function () {
     function Point(x, y) {
         this.x = x;
@@ -7,11 +7,10 @@ var Point = (function () {
     Point.prototype.getDist = function () { return Math.sqrt(this.x * this.x + this.y * this.y); };
     return Point;
 }());
-var p = new Point(3, 4);
-var dist = p.getDist();
-toastr.info("distance = " + dist);
+var p1 = new Point(3, 4);
+var dist1 = p1.getDist();
+toastr.info("distance = " + dist1);
 /* An Internal Module */
-/// <reference path="../typings/toastr.d.ts" />
 var Shapes;
 (function (Shapes) {
     var Rectangle = (function () {
@@ -39,10 +38,10 @@ var MyProgram;
     *   We might have one module which handles data access, other hanldes UI Integration and
         the other might do animations.
     *   By seperating our code we get lots of feature like testability, and Reusability.
-        - Reusable
-        - Maintainable
-        - Seperated
-        - Testable
+            - Reusable
+            - Maintainable
+            - Seperated
+            - Testable
     * Earlier versions of TypeScript before 1.5 uses module keyword while newer one use namespace.
 
     *   Explicitely declare a module -
@@ -76,8 +75,7 @@ var MyProgram;
                 console.log('Hello');
             })();
 
-            Refer IIFE () gets created for modules in .js compiled file.
-    *   
+    *
         
 
  */ 
